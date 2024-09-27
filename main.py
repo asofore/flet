@@ -18,6 +18,7 @@ def main(page: ft.Page):
     
     # إضافة العناصر إلى الصفحة
     page.add(input_field, submit_button)
+    page.update()
 
 # تشغيل التطبيق
 ft.app(target=main)
